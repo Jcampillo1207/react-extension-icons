@@ -76,45 +76,45 @@ This package supports the following file extensions:
 
 | Variants | Icon |
 |----------|------|
-| ai | ![Icon](svg/color/AI.svg) |
-| avi | ![Icon](svg/color/AVI.svg) |
-| bmp | ![Icon](svg/color/BMP.svg) |
-| crd | ![Icon](svg/color/CRD.svg) |
-| csv | ![Icon](svg/color/CSV.svg) |
-| dll | ![Icon](svg/color/DLL.svg) |
-| doc, docx | ![Icon](svg/color/DOC.svg) |
-| dwg, dxf | ![Icon](svg/color/DWG.svg) |
-| eps | ![Icon](svg/color/EPS.svg) |
-| exe | ![Icon](svg/color/EXE.svg) |
-| flv | ![Icon](svg/color/FLV.svg) |
-| gif | ![Icon](svg/color/GIF.svg) |
-| html, htm | ![Icon](svg/color/HTML.svg) |
-| iso | ![Icon](svg/color/ISO.svg) |
-| java, jar | ![Icon](svg/color/JAVA.svg) |
-| jpg, jpeg, jpe, jif, jfif, jfi | ![Icon](svg/color/JPG.svg) |
-| mdb | ![Icon](svg/color/MDB.svg) |
-| mid, midi | ![Icon](svg/color/MID.svg) |
-| mov, qt | ![Icon](svg/color/MOV.svg) |
-| mp3 | ![Icon](svg/color/MP3.svg) |
-| mp4, m4a, m4p | ![Icon](svg/color/MP4.svg) |
-| mpeg, mpg, mp2, mpe, mpv | ![Icon](svg/color/MPEG.svg) |
-| pdf | ![Icon](svg/color/PDF.svg) |
-| png | ![Icon](svg/color/PNG.svg) |
-| ppt, pptx, pps, ppsx, potx, potm, ppsm, ppam, sldx, sldm | ![Icon](svg/color/PPT.svg) |
-| ps | ![Icon](svg/color/PS.svg) |
-| psd | ![Icon](svg/color/PSD.svg) |
-| pub | ![Icon](svg/color/PUB.svg) |
-| rar | ![Icon](svg/color/RAR.svg) |
-| raw | ![Icon](svg/color/RAW.svg) |
-| rss | ![Icon](svg/color/RSS.svg) |
-| svg | ![Icon](svg/color/SVG.svg) |
-| tiff, tif | ![Icon](svg/color/TIFF.svg) |
-| txt | ![Icon](svg/color/TXT.svg) |
-| wav | ![Icon](svg/color/WAV.svg) |
-| wma, wmv | ![Icon](svg/color/WMA.svg) |
-| xml | ![Icon](svg/color/XML.svg) |
-| xsl | ![Icon](svg/color/XSL.svg) |
-| zip | ![Icon](svg/color/ZIP.svg) |
+| ai | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/AI.svg) |
+| avi | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/AVI.svg) |
+| bmp | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/BMP.svg) |
+| crd | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/CRD.svg) |
+| csv | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/CSV.svg) |
+| dll | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/DLL.svg) |
+| doc, docx | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/DOC.svg) |
+| dwg, dxf | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/DWG.svg) |
+| eps | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/EPS.svg) |
+| exe | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/EXE.svg) |
+| flv | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/FLV.svg) |
+| gif | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/GIF.svg) |
+| html, htm | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/HTML.svg) |
+| iso | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/ISO.svg) |
+| java, jar | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/JAVA.svg) |
+| jpg, jpeg, jpe, jif, jfif, jfi | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/JPG.svg) |
+| mdb | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/MDB.svg) |
+| mid, midi | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/MID.svg) |
+| mov, qt | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/MOV.svg) |
+| mp3 | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/MP3.svg) |
+| mp4, m4a, m4p | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/MP4.svg) |
+| mpeg, mpg, mp2, mpe, mpv | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/MPEG.svg) |
+| pdf | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/PDF.svg) |
+| png | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/PNG.svg) |
+| ppt, pptx, pps, ppsx, potx, potm, ppsm, ppam, sldx, sldm | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/PPT.svg) |
+| ps | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/PS.svg) |
+| psd | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/PSD.svg) |
+| pub | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/PUB.svg) |
+| rar | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/RAR.svg) |
+| raw | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/RAW.svg) |
+| rss | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/RSS.svg) |
+| svg | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/SVG.svg) |
+| tiff, tif | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/TIFF.svg) |
+| txt | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/TXT.svg) |
+| wav | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/WAV.svg) |
+| wma, wmv | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/WMA.svg) |
+| xml | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/XML.svg) |
+| xsl | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/XSL.svg) |
+| zip | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/blob/main/svg/color/ZIP.svg) |
 
 ## Credits
 Icons are sourced from [this Figma file](https://www.figma.com/community/file/1113398399853613530/40-file-type-file-extension-icon) created by [Graphy](https://www.figma.com/@graphy918).
