@@ -1,6 +1,18 @@
+# Exclude all node_modules except the one required by your package
+node_modules/
+
+# Exclude all build tools and configurations
 scripts/
-svg/
-src/
-tsconfig.json
-tsconfig.build.json
-README.md
+*.config.js
+*.config.ts
+*.json
+
+# Exclude local development files
+*.log
+*.md
+.gitignore
+npm-debug.log*
+.DS_Store
+
+# Include dist folder
+!dist/
