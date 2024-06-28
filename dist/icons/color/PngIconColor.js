@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function PngIconColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_564)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.24 49.24C134.773 49.2347 129.531 47.0606 125.665 43.1947C121.799 39.3288 119.625 34.0871 119.62 28.62V0H27.48C20.343 0 13.4984 2.83517 8.45178 7.88177C3.40518 12.9284 0.570007 19.773 0.570007 26.91V189.13C0.580606 196.26 3.42043 203.094 8.46588 208.132C13.5113 213.17 20.3499 216 27.48 216H138.09C145.222 216 152.062 213.169 157.108 208.129C162.153 203.089 164.992 196.252 165 189.12V49.24H140.24Z", fill: "#005FAD" })),
@@ -66,6 +66,6 @@ function PngIconColor(props) {
             React.createElement("path", { d: "M124.05 135.56H110.3V149.31H124.05V135.56Z", fill: "#005FAD" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_564" },
-                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.570007)" }))));
+                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.570007)" }))));
 }
 exports.default = PngIconColor;

@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function RssIconColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_557)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.53 49.24C135.062 49.2347 129.819 47.0609 125.952 43.1953C122.084 39.3297 119.908 34.0881 119.9 28.62V0H27.77C20.633 0 13.7883 2.83514 8.7417 7.88174C3.6951 12.9283 0.860107 19.773 0.860107 26.91V189.13C0.870706 196.26 3.7104 203.094 8.75586 208.132C13.8013 213.17 20.64 216 27.77 216H138.37C145.507 216 152.352 213.165 157.398 208.118C162.445 203.072 165.28 196.227 165.28 189.09V49.24H140.53Z", fill: "#FF9908" })),
@@ -51,6 +51,6 @@ function RssIconColor(props) {
             React.createElement("path", { d: "M114.67 139.61H105.22C105.204 125.359 99.5361 111.697 89.4595 101.62C79.3828 91.5438 65.7205 85.8758 51.47 85.8599V76.4099C68.226 76.4284 84.2904 83.0929 96.1387 94.9412C107.987 106.79 114.651 122.854 114.67 139.61Z", fill: "#FF9908" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_557" },
-                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.860107)" }))));
+                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.860107)" }))));
 }
 exports.default = RssIconColor;

@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function MovIconSingleColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_2701)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.1 49.24C134.633 49.2347 129.391 47.0606 125.525 43.1947C121.659 39.3288 119.485 34.0871 119.48 28.62V0H27.3398C20.2029 0 13.3581 2.83517 8.31152 7.88177C3.26492 12.9284 0.429687 19.773 0.429688 26.91V189.13C0.440286 196.26 3.28023 203.094 8.32568 208.132C13.3711 213.17 20.2098 216 27.3398 216H137.94C141.474 216.001 144.974 215.306 148.239 213.954C151.505 212.602 154.472 210.62 156.971 208.121C159.47 205.622 161.452 202.655 162.804 199.39C164.156 196.124 164.851 192.624 164.85 189.09V49.24H140.1Z", fill: props.color || "#4690FF" })),
@@ -50,6 +50,6 @@ function MovIconSingleColor(props) {
             React.createElement("path", { d: "M114.74 138.48C114.212 138.478 113.686 138.421 113.17 138.31C108.9 137.31 107.17 132.77 107.17 132.58C107.11 132.417 107.083 132.243 107.091 132.069C107.098 131.895 107.141 131.725 107.215 131.567C107.29 131.41 107.395 131.269 107.524 131.153C107.654 131.036 107.805 130.947 107.97 130.89C108.132 130.831 108.304 130.805 108.476 130.813C108.649 130.821 108.818 130.863 108.974 130.936C109.13 131.009 109.27 131.113 109.386 131.241C109.502 131.368 109.592 131.518 109.65 131.68C109.65 131.74 110.94 135.11 113.78 135.74C116.2 136.27 119.33 134.74 122.84 131.2C122.963 131.077 123.108 130.979 123.269 130.913C123.429 130.846 123.601 130.812 123.775 130.812C123.948 130.812 124.121 130.846 124.281 130.913C124.442 130.979 124.587 131.077 124.71 131.2C124.955 131.447 125.093 131.782 125.093 132.13C125.093 132.478 124.955 132.813 124.71 133.06C121.08 136.67 117.75 138.48 114.74 138.48Z", fill: props.color || "#4690FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2701" },
-                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.429688)" }))));
+                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.429688)" }))));
 }
 exports.default = MovIconSingleColor;

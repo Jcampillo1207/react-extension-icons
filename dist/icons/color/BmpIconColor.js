@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function BmpIconColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_550)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.53 49.24C135.061 49.2373 129.817 47.0644 125.949 43.1982C122.081 39.3321 119.905 34.0889 119.9 28.62V0H27.77C24.2353 -2.4406e-07 20.7353 0.696337 17.4697 2.04932C14.2042 3.4023 11.2372 5.38537 8.73828 7.88525C6.23933 10.3851 4.25729 13.3529 2.90552 16.6189C1.55375 19.8849 0.858796 23.3853 0.860109 26.92V189.13C0.858796 192.665 1.55375 196.165 2.90552 199.431C4.25729 202.697 6.23933 205.665 8.73828 208.165C11.2372 210.665 14.2042 212.648 17.4697 214.001C20.7353 215.354 24.2353 216.05 27.77 216.05H138.37C141.905 216.05 145.405 215.354 148.67 214.001C151.936 212.648 154.903 210.665 157.402 208.165C159.901 205.665 161.883 202.697 163.234 199.431C164.586 196.165 165.281 192.665 165.28 189.13V49.25L140.53 49.24Z", fill: "#A140FF" })),
@@ -51,6 +51,6 @@ function BmpIconColor(props) {
             React.createElement("path", { d: "M102.39 94.95C105.102 94.95 107.3 92.7518 107.3 90.04C107.3 87.3283 105.102 85.13 102.39 85.13C99.6782 85.13 97.48 87.3283 97.48 90.04C97.48 92.7518 99.6782 94.95 102.39 94.95Z", fill: "#A140FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_550" },
-                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.860107)" }))));
+                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.860107)" }))));
 }
 exports.default = BmpIconColor;

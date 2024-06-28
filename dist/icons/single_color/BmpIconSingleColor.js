@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function BmpIconSingleColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_2574)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.53 49.24C135.061 49.2373 129.817 47.0644 125.949 43.1982C122.081 39.3321 119.905 34.0889 119.9 28.62V0H27.7703C24.2356 -2.4406e-07 20.7355 0.696337 17.47 2.04932C14.2044 3.4023 11.2375 5.38537 8.73853 7.88525C6.23957 10.3851 4.25753 13.3529 2.90576 16.6189C1.554 19.8849 0.85904 23.3853 0.860353 26.92V189.13C0.85904 192.665 1.554 196.165 2.90576 199.431C4.25753 202.697 6.23957 205.665 8.73853 208.165C11.2375 210.665 14.2044 212.648 17.47 214.001C20.7355 215.354 24.2356 216.05 27.7703 216.05H138.37C141.905 216.05 145.405 215.354 148.671 214.001C151.936 212.648 154.903 210.665 157.402 208.165C159.901 205.665 161.883 202.697 163.235 199.431C164.586 196.165 165.282 192.665 165.28 189.13V49.25L140.53 49.24Z", fill: props.color || "#4690FF" })),
@@ -51,6 +51,6 @@ function BmpIconSingleColor(props) {
             React.createElement("path", { d: "M102.39 94.9498C105.102 94.9498 107.3 92.7516 107.3 90.0399C107.3 87.3282 105.102 85.1299 102.39 85.1299C99.6784 85.1299 97.4802 87.3282 97.4802 90.0399C97.4802 92.7516 99.6784 94.9498 102.39 94.9498Z", fill: props.color || "#4690FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2574" },
-                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.860352)" }))));
+                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.860352)" }))));
 }
 exports.default = BmpIconSingleColor;

@@ -51,6 +51,6 @@ function WmaIconColor(props) {
             React.createElement("path", { d: "M54.6 144.9C61.7687 144.9 67.58 139.089 67.58 131.92C67.58 124.751 61.7687 118.94 54.6 118.94C47.4313 118.94 41.62 124.751 41.62 131.92C41.62 139.089 47.4313 144.9 54.6 144.9Z", fill: "#FF9908" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_562" },
-                React.createElement("rect", { width: 20, height: 24, fill: "white" }))));
+                React.createElement("rect", { width: "1em", height: "1em", fill: "white" }))));
 }
 exports.default = WmaIconColor;

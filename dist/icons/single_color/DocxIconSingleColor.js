@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function DocxIconSingleColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_2289)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M139.81 49.25C134.343 49.2447 129.101 47.0704 125.235 43.2046C121.37 39.3387 119.195 34.097 119.19 28.6299V1.85854e-06H27.0602C23.5255 -0.00131167 20.0251 0.693646 16.759 2.04541C13.493 3.39718 10.5253 5.37922 8.02539 7.87818C5.52551 10.3771 3.54243 13.3441 2.18945 16.6096C0.836474 19.8751 0.140136 23.3752 0.140137 26.9099V189.13C0.140136 192.665 0.836474 196.165 2.18945 199.43C3.54243 202.696 5.52551 205.663 8.02539 208.162C10.5253 210.661 13.493 212.643 16.759 213.994C20.0251 215.346 23.5255 216.041 27.0602 216.04H137.66C144.797 216.04 151.642 213.205 156.688 208.158C161.735 203.112 164.57 196.267 164.57 189.13V49.25H139.81Z", fill: props.color || "#4690FF" })),

@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function AviIconColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_567)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140 49.24C134.532 49.2347 129.289 47.0609 125.422 43.1953C121.554 39.3297 119.378 34.0881 119.37 28.62V0H27.2C20.063 0 13.2184 2.83517 8.17175 7.88177C3.12515 12.9284 0.290039 19.773 0.290039 26.91V189.13C0.297991 196.261 3.13695 203.097 8.18298 208.135C13.229 213.174 20.0691 216.003 27.2 216H137.8C144.937 216 151.782 213.165 156.828 208.118C161.875 203.072 164.71 196.227 164.71 189.09V49.24H140Z", fill: "#FF9908" })),
@@ -51,6 +51,6 @@ function AviIconColor(props) {
             React.createElement("path", { d: "M74.77 99.48H71.27C69.9666 99.48 68.91 100.537 68.91 101.84V115.53C68.91 116.833 69.9666 117.89 71.27 117.89H74.77C76.0734 117.89 77.13 116.833 77.13 115.53V101.84C77.13 100.537 76.0734 99.48 74.77 99.48Z", fill: "#FF9908" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_567" },
-                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.290039)" }))));
+                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.290039)" }))));
 }
 exports.default = AviIconColor;

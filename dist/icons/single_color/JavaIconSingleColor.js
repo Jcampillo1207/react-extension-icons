@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function JavaIconSingleColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_2771)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140 49.24C134.532 49.2347 129.289 47.0609 125.422 43.1953C121.554 39.3297 119.378 34.0881 119.37 28.62V0H27.2C20.063 0 13.2184 2.83514 8.17175 7.88174C3.12515 12.9283 0.290039 19.773 0.290039 26.91V189.13C0.300637 196.26 3.14046 203.094 8.18591 208.132C13.2314 213.17 20.0699 216 27.2 216H137.8C144.937 216 151.782 213.165 156.828 208.118C161.875 203.072 164.71 196.227 164.71 189.09V49.24H140Z", fill: props.color || "#4690FF" })),
@@ -54,6 +54,6 @@ function JavaIconSingleColor(props) {
             React.createElement("path", { d: "M81.67 143.11C85.3317 143.11 88.3 140.142 88.3 136.48C88.3 132.818 85.3317 129.85 81.67 129.85C78.0084 129.85 75.04 132.818 75.04 136.48C75.04 140.142 78.0084 143.11 81.67 143.11Z", fill: props.color || "#4690FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2771" },
-                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.290039)" }))));
+                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.290039)" }))));
 }
 exports.default = JavaIconSingleColor;
