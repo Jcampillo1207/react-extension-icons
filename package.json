@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json && cpx 'src/icons/**/*' dist/icons",
     "generate-icons": "node scripts/generateIcons.js",
-    "update": "npm version patch && npm run generate-icons && npm run build && npm publish"
+    "update": "git add . && git commit -m 'Update' && git push origin main && npm version patch && npm run generate-icons && npm run build && npm publish"
   },
   "files": [
     "dist"
