@@ -51,6 +51,6 @@ function WmaIconGrayscale(props) {
             React.createElement("path", { d: "M54.6 144.899C61.7687 144.899 67.58 139.088 67.58 131.919C67.58 124.751 61.7687 118.939 54.6 118.939C47.4313 118.939 41.62 124.751 41.62 131.919C41.62 139.088 47.4313 144.899 54.6 144.899Z", fill: "#5B5B5B" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2160" },
-                React.createElement("rect", { width: "1em", height: "1em", fill: "white" }))));
+                React.createElement("rect", { width: 200, height: 240, fill: "white" }))));
 }
 exports.default = WmaIconGrayscale;

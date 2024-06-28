@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function SvgIconSingleColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_2530)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M139.81 49.24C134.343 49.2347 129.101 47.0606 125.235 43.1947C121.37 39.3288 119.195 34.0871 119.19 28.62V0H27.0602C19.9206 0 13.0733 2.83616 8.02478 7.88464C2.9763 12.9331 0.140137 19.7804 0.140137 26.92V189.13C0.140137 196.27 2.9763 203.117 8.02478 208.165C13.0733 213.214 19.9206 216.05 27.0602 216.05H137.66C141.195 216.05 144.695 215.354 147.96 214.001C151.226 212.648 154.193 210.665 156.692 208.165C159.191 205.665 161.173 202.697 162.525 199.431C163.876 196.165 164.571 192.665 164.57 189.13V49.25L139.81 49.24Z", fill: props.color || "#4690FF" })),

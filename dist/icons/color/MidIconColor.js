@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function MidIconColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_560)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M139.81 49.24C134.343 49.2347 129.101 47.0606 125.235 43.1947C121.369 39.3288 119.195 34.0871 119.19 28.62V1.85821e-06H27.0601C23.5253 -0.00131167 20.0249 0.693768 16.7589 2.04553C13.4929 3.3973 10.5252 5.37928 8.02527 7.87824C5.52538 10.3772 3.54231 13.3442 2.18933 16.6097C0.836352 19.8752 0.140014 23.3753 0.140015 26.91V189.13C0.150615 196.262 2.99181 203.098 8.03943 208.136C13.087 213.174 19.9283 216.003 27.0601 216H137.66C144.797 216 151.642 213.165 156.688 208.118C161.735 203.072 164.57 196.227 164.57 189.09V49.24H139.81Z", fill: "#005FAD" })),

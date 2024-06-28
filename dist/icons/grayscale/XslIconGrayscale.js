@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function XslIconGrayscale(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_1782)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.1 49.25C134.633 49.2447 129.391 47.0704 125.525 43.2046C121.659 39.3387 119.485 34.097 119.48 28.6299V0H27.3398C20.2029 0 13.3581 2.83523 8.31152 7.88184C3.26492 12.9284 0.429687 19.7729 0.429688 26.9099V189.13C0.429688 196.267 3.26492 203.112 8.31152 208.158C13.3581 213.205 20.2029 216.04 27.3398 216.04H137.94C145.077 216.04 151.921 213.205 156.968 208.158C162.015 203.112 164.85 196.267 164.85 189.13V49.25H140.1Z", fill: "#5B5B5B" })),

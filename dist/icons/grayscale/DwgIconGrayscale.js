@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function DwgIconGrayscale(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_1999)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140 49.24C134.531 49.2373 129.287 47.0644 125.419 43.1982C121.551 39.3321 119.375 34.0889 119.37 28.62V0H27.2C23.6652 -2.4406e-07 20.1652 0.696337 16.8997 2.04932C13.6341 3.4023 10.6672 5.38537 8.16821 7.88525C5.66926 10.3851 3.68734 13.3529 2.33557 16.6189C0.983807 19.8849 0.288727 23.3853 0.290041 26.92V189.13C0.300639 196.26 3.14046 203.094 8.18591 208.132C13.2314 213.17 20.0699 216 27.2 216H137.8C141.335 216 144.835 215.304 148.1 213.951C151.366 212.598 154.333 210.615 156.832 208.115C159.331 205.615 161.313 202.647 162.665 199.381C164.016 196.115 164.711 192.615 164.71 189.08V49.2L140 49.24Z", fill: "#5B5B5B" })),
@@ -51,6 +51,6 @@ function DwgIconGrayscale(props) {
             React.createElement("path", { d: "M108.1 72.3599H87.49V92.9698H108.1V72.3599Z", fill: "#5B5B5B" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_1999" },
-                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.290039)" }))));
+                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.290039)" }))));
 }
 exports.default = DwgIconGrayscale;

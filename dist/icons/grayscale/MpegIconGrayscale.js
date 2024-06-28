@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function MpegIconGrayscale(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_2126)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.53 49.24C135.062 49.2347 129.819 47.0609 125.952 43.1953C122.084 39.3297 119.908 34.0881 119.9 28.62V0H27.7703C20.6333 0 13.7885 2.83517 8.74194 7.88177C3.69534 12.9284 0.860352 19.773 0.860352 26.91V189.13C0.87095 196.26 3.71065 203.094 8.7561 208.132C13.8016 213.17 20.6402 216 27.7703 216H138.37C145.507 216 152.352 213.165 157.398 208.118C162.445 203.072 165.28 196.227 165.28 189.09V49.24H140.53Z", fill: "#5B5B5B" })),
@@ -51,6 +51,6 @@ function MpegIconGrayscale(props) {
             React.createElement("path", { d: "M91.0803 105.56L81.5103 100.03C81.0149 99.744 80.4531 99.5934 79.8811 99.5933C79.3091 99.5931 78.7472 99.7434 78.2517 100.029C77.7562 100.315 77.3445 100.726 77.0581 101.221C76.7717 101.716 76.6209 102.278 76.6204 102.85V113.91C76.6209 114.482 76.7717 115.044 77.0581 115.539C77.3445 116.034 77.7562 116.445 78.2517 116.731C78.7472 117.017 79.3091 117.167 79.8811 117.167C80.4531 117.167 81.0149 117.016 81.5103 116.73L91.0803 111.2C91.5744 110.913 91.9844 110.502 92.2695 110.007C92.5546 109.512 92.7046 108.951 92.7046 108.38C92.7046 107.809 92.5546 107.248 92.2695 106.753C91.9844 106.258 91.5744 105.847 91.0803 105.56Z", fill: "#5B5B5B" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2126" },
-                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.860352)" }))));
+                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.860352)" }))));
 }
 exports.default = MpegIconGrayscale;

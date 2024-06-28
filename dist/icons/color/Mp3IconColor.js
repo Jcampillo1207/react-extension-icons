@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function Mp3IconColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_561)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.24 49.24C134.773 49.2347 129.531 47.0606 125.665 43.1947C121.799 39.3288 119.625 34.0871 119.62 28.62V0H27.48C20.343 0 13.4984 2.83514 8.45178 7.88174C3.40518 12.9283 0.570007 19.773 0.570007 26.91V189.13C0.580606 196.26 3.42043 203.094 8.46588 208.132C13.5113 213.17 20.3499 216 27.48 216H138.09C145.222 216 152.062 213.169 157.108 208.129C162.153 203.089 164.992 196.252 165 189.12V49.24H140.24Z", fill: "#FF3E4C" })),
@@ -51,6 +51,6 @@ function Mp3IconColor(props) {
             React.createElement("path", { d: "M57.75 144.9C64.9187 144.9 70.73 139.089 70.73 131.92C70.73 124.751 64.9187 118.94 57.75 118.94C50.5814 118.94 44.77 124.751 44.77 131.92C44.77 139.089 50.5814 144.9 57.75 144.9Z", fill: "#FF3E4C" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_561" },
-                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.570007)" }))));
+                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.570007)" }))));
 }
 exports.default = Mp3IconColor;

@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function FlvIconColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_566)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.38 49.24C134.913 49.2347 129.671 47.0606 125.805 43.1947C121.939 39.3288 119.765 34.0871 119.76 28.62V1.85821e-06H27.63C24.0953 -0.00131167 20.5949 0.693768 17.3289 2.04553C14.0628 3.3973 11.0952 5.37928 8.59534 7.87824C6.09545 10.3772 4.11238 13.3442 2.7594 16.6097C1.40642 19.8752 0.709961 23.3753 0.709961 26.91V189.13C0.720561 196.262 3.56176 203.098 8.60938 208.136C13.657 213.174 20.4982 216.003 27.63 216H138.23C141.764 216 145.263 215.304 148.528 213.952C151.793 212.599 154.759 210.617 157.258 208.118C159.757 205.619 161.739 202.653 163.092 199.388C164.444 196.123 165.14 192.624 165.14 189.09V49.24H140.38Z", fill: "#FF3E4C" })),

@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function CrdIconColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_546)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.24 49.24C134.773 49.2347 129.531 47.0606 125.665 43.1947C121.799 39.3288 119.625 34.0871 119.62 28.62V0H27.48C23.9453 -2.4406e-07 20.4452 0.696337 17.1797 2.04932C13.9142 3.4023 10.9472 5.38537 8.44824 7.88525C5.94929 10.3851 3.96731 13.3529 2.61554 16.6189C1.26378 19.8849 0.568696 23.3853 0.570009 26.92V189.13C0.580608 196.26 3.42043 203.094 8.46588 208.132C13.5113 213.17 20.3499 216 27.48 216H138.09C145.222 216 152.062 213.169 157.108 208.129C162.153 203.089 164.992 196.252 165 189.12V49.24H140.24Z", fill: "#3CBA32" })),
@@ -54,6 +54,6 @@ function CrdIconColor(props) {
             React.createElement("path", { d: "M87.19 154.03H78.73L76.19 145.96H89.73L87.19 154.03Z", fill: "#3CBA32" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_546" },
-                React.createElement("rect", { width: "1em", height: "1em", fill: "white", transform: "translate(0.570007)" }))));
+                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.570007)" }))));
 }
 exports.default = CrdIconColor;

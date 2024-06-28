@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 function PsdIconSingleColor(props) {
-    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 200 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
+    return React.createElement("svg", __assign({ width: "1em", height: "1em", viewBox: "0 0 201 240", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, props),
         React.createElement("g", { clipPath: "url(#clip0_2_2486)" },
             React.createElement("g", { opacity: 0.3 },
                 React.createElement("path", { opacity: 0.3, d: "M140.1 49.25C134.631 49.2447 129.388 47.0692 125.521 43.2012C121.655 39.3332 119.482 34.0889 119.48 28.62V0H27.3398C20.2029 0 13.3581 2.83511 8.31152 7.88171C3.26492 12.9283 0.429687 19.7731 0.429688 26.91V189.13C0.429688 196.267 3.26492 203.112 8.31152 208.158C13.3581 213.205 20.2029 216.04 27.3398 216.04H137.94C145.077 216.04 151.921 213.205 156.968 208.158C162.015 203.112 164.85 196.267 164.85 189.13V49.25H140.1Z", fill: props.color || "#4690FF" })),

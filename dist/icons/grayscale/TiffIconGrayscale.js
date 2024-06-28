@@ -52,6 +52,6 @@ function TiffIconGrayscale(props) {
             React.createElement("path", { d: "M101.54 94.9498C104.252 94.9498 106.45 92.7516 106.45 90.0399C106.45 87.3282 104.252 85.1299 101.54 85.1299C98.8283 85.1299 96.6299 87.3282 96.6299 90.0399C96.6299 92.7516 98.8283 94.9498 101.54 94.9498Z", fill: "#5B5B5B" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2035" },
-                React.createElement("rect", { width: "1em", height: "1em", fill: "white" }))));
+                React.createElement("rect", { width: 200, height: 240, fill: "white" }))));
 }
 exports.default = TiffIconGrayscale;
