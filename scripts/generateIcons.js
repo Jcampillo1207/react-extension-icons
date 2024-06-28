@@ -18,7 +18,7 @@ const typesFilePath = path.join(typesPath, "index.ts");
 const iconComponentPath = path.join(componentsPath, "Icon.tsx");
 const indexDtsPath = path.join(__dirname, "../dist/index.d.ts");
 
-const extensionMapping = {
+const extensionMapping: { [key: string]: string } = {
   ai: "ai",
   avi: "avi",
   bmp: "bmp",
@@ -197,7 +197,7 @@ const generateGetIconComponentFile = (icons) => {
 
   content +=
     "};\n\nexport const getIconComponent = (extension: string, variant: Variant = 'color'): React.ComponentType<React.SVGProps<SVGSVGElement> & { color?: string }> | null => {\n";
-  content += "  const extensionMapping = {\n";
+  content += "  const extensionMapping: { [key: string]: string } = {\n";
   for (const [key, value] of Object.entries(extensionMapping)) {
     content += `    ${key}: '${value}',\n`;
   }
