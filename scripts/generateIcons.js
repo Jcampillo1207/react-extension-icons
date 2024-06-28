@@ -3,8 +3,8 @@ const path = require("path");
 const svgr = require("@svgr/core").default;
 const camelCase = require("lodash.camelcase");
 const fsExtra = require("fs-extra");
-const { optimize } = require("svgo");
-const svgoConfig = require("../svgo.config.js");
+const { optimize } = require('svgo');
+const svgoConfig = require('../svgo.config.js');
 
 const variants = ["color", "single_color", "grayscale"];
 const svgPath = path.join(__dirname, "../svg");
@@ -111,9 +111,9 @@ const generateReactComponent = async (filePath, componentName, variant) => {
 };
 
 const optimizeSvg = (filePath) => {
-  const svgContent = fs.readFileSync(filePath, "utf-8");
+  const svgContent = fs.readFileSync(filePath, 'utf-8');
   const result = optimize(svgContent, { path: filePath, ...svgoConfig });
-  fs.writeFileSync(filePath, result.data, "utf-8");
+  fs.writeFileSync(filePath, result.data, 'utf-8');
 };
 
 const generateIcons = async () => {
@@ -197,8 +197,12 @@ const generateGetIconComponentFile = (icons) => {
 
   content +=
     "};\n\nexport const getIconComponent = (extension: string, variant: Variant = 'color'): React.ComponentType<React.SVGProps<SVGSVGElement> & { color?: string }> | null => {\n";
-  content +=
-    "  const ext = extensionMapping[extension.toLowerCase()] || extension.toLowerCase();\n";
+  content += "  const extensionMapping = {\n";
+  for (const [key, value] of Object.entries(extensionMapping)) {
+    content += `    ${key}: '${value}',\n`;
+  }
+  content += "  };\n";
+  content += "  const ext = extensionMapping[extension.toLowerCase()] || extension.toLowerCase();\n";
   content += "  const iconVariants = icons[ext];\n";
   content += "  return iconVariants ? iconVariants[variant] || null : null;\n";
   content += "};\n";
