@@ -180,6 +180,12 @@ const generateGetIconComponentFile = (icons) => {
     }
   }
 
+  content += `const extensionMapping: { [key: string]: string } = {\n`;
+  for (const [key, value] of Object.entries(extensionMapping)) {
+    content += `  '${key}': '${value}',\n`;
+  }
+  content += `};\n\n`;
+
   content += `const icons: { [key: string]: { [key in Variant]?: React.ComponentType<React.SVGProps<SVGSVGElement> & { color?: string }> } } = {\n`;
 
   for (const iconName of iconNames) {
@@ -197,11 +203,6 @@ const generateGetIconComponentFile = (icons) => {
 
   content +=
     "};\n\nexport const getIconComponent = (extension: string, variant: Variant = 'color'): React.ComponentType<React.SVGProps<SVGSVGElement> & { color?: string }> | null => {\n";
-  content += "  const extensionMapping: { [key: string]: string } = {\n";
-  for (const [key, value] of Object.entries(extensionMapping)) {
-    content += `    ${key}: '${value}',\n`;
-  }
-  content += "  };\n";
   content += "  const ext = extensionMapping[extension.toLowerCase()] || extension.toLowerCase();\n";
   content += "  const iconVariants = icons[ext];\n";
   content += "  return iconVariants ? iconVariants[variant] || null : null;\n";
