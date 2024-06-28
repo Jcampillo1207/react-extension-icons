@@ -54,6 +54,6 @@ function JavaIconGrayscale(props) {
             React.createElement("path", { d: "M81.67 143.11C85.3317 143.11 88.3 140.141 88.3 136.479C88.3 132.818 85.3317 129.85 81.67 129.85C78.0084 129.85 75.04 132.818 75.04 136.479C75.04 140.141 78.0084 143.11 81.67 143.11Z", fill: "#5B5B5B" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2208" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.290039)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.290039)" }))));
 }
 exports.default = JavaIconGrayscale;

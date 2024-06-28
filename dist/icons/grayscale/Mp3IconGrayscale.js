@@ -51,6 +51,6 @@ function Mp3IconGrayscale(props) {
             React.createElement("path", { d: "M57.7498 144.899C64.9185 144.899 70.7299 139.088 70.7299 131.919C70.7299 124.751 64.9185 118.939 57.7498 118.939C50.5812 118.939 44.7698 124.751 44.7698 131.919C44.7698 139.088 50.5812 144.899 57.7498 144.899Z", fill: "#5B5B5B" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2172" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.569824)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.569824)" }))));
 }
 exports.default = Mp3IconGrayscale;

@@ -51,6 +51,6 @@ function MpegIconSingleColor(props) {
             React.createElement("path", { d: "M91.0803 105.56L81.5103 100.03C81.0149 99.744 80.4531 99.5934 79.8811 99.5933C79.3091 99.5931 78.7472 99.7434 78.2517 100.029C77.7562 100.315 77.3445 100.726 77.0581 101.221C76.7717 101.716 76.6209 102.278 76.6204 102.85V113.91C76.6209 114.482 76.7717 115.044 77.0581 115.539C77.3445 116.034 77.7562 116.445 78.2517 116.731C78.7472 117.017 79.3091 117.167 79.8811 117.167C80.4531 117.167 81.0149 117.016 81.5103 116.73L91.0803 111.2C91.5744 110.913 91.9844 110.502 92.2695 110.007C92.5546 109.512 92.7046 108.951 92.7046 108.38C92.7046 107.809 92.5546 107.248 92.2695 106.753C91.9844 106.258 91.5744 105.847 91.0803 105.56Z", fill: props.color || "#4690FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2689" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.860352)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.860352)" }))));
 }
 exports.default = MpegIconSingleColor;

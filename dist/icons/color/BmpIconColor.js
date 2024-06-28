@@ -51,6 +51,6 @@ function BmpIconColor(props) {
             React.createElement("path", { d: "M102.39 94.95C105.102 94.95 107.3 92.7518 107.3 90.04C107.3 87.3283 105.102 85.13 102.39 85.13C99.6782 85.13 97.48 87.3283 97.48 90.04C97.48 92.7518 99.6782 94.95 102.39 94.95Z", fill: "#A140FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_550" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.860107)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.860107)" }))));
 }
 exports.default = BmpIconColor;

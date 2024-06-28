@@ -54,6 +54,6 @@ function CrdIconSingleColor(props) {
             React.createElement("path", { d: "M87.1898 154.03H78.7298L76.1898 145.96H89.7298L87.1898 154.03Z", fill: props.color || "#4690FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2515" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.569824)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.569824)" }))));
 }
 exports.default = CrdIconSingleColor;

@@ -51,6 +51,6 @@ function DwgIconColor(props) {
             React.createElement("path", { d: "M108.1 72.36H87.49V92.97H108.1V72.36Z", fill: "#005FAD" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_549" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.290039)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.290039)" }))));
 }
 exports.default = DwgIconColor;

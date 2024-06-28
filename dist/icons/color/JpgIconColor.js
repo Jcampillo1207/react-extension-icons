@@ -51,6 +51,6 @@ function JpgIconColor(props) {
             React.createElement("path", { d: "M101.96 94.95C104.672 94.95 106.87 92.7518 106.87 90.04C106.87 87.3283 104.672 85.13 101.96 85.13C99.2482 85.13 97.05 87.3283 97.05 90.04C97.05 92.7518 99.2482 94.95 101.96 94.95Z", fill: "#00C650" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_551" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.429932)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.429932)" }))));
 }
 exports.default = JpgIconColor;

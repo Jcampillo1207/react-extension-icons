@@ -52,6 +52,6 @@ function TiffIconColor(props) {
             React.createElement("path", { d: "M101.54 94.95C104.252 94.95 106.45 92.7518 106.45 90.04C106.45 87.3283 104.252 85.13 101.54 85.13C98.8283 85.13 96.6299 87.3283 96.6299 90.04C96.6299 92.7518 98.8283 94.95 101.54 94.95Z", fill: "#A140FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_552" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white" }))));
 }
 exports.default = TiffIconColor;

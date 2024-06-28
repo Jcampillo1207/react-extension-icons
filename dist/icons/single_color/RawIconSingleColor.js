@@ -54,6 +54,6 @@ function RawIconSingleColor(props) {
             React.createElement("path", { d: "M87.32 130.62L82.32 139.08L78.32 145.96L75.11 151.46C64.6061 149.742 55.0811 144.274 48.3 136.07C46.8804 134.351 45.5902 132.53 44.44 130.62H87.32Z", fill: props.color || "#4690FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2611" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white" }))));
 }
 exports.default = RawIconSingleColor;

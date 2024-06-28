@@ -51,6 +51,6 @@ function Mp3IconSingleColor(props) {
             React.createElement("path", { d: "M57.7498 144.9C64.9185 144.9 70.7299 139.089 70.7299 131.92C70.7299 124.751 64.9185 118.94 57.7498 118.94C50.5812 118.94 44.7698 124.751 44.7698 131.92C44.7698 139.089 50.5812 144.9 57.7498 144.9Z", fill: props.color || "#4690FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2735" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.569824)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.569824)" }))));
 }
 exports.default = Mp3IconSingleColor;

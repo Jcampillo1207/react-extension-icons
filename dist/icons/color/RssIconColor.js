@@ -51,6 +51,6 @@ function RssIconColor(props) {
             React.createElement("path", { d: "M114.67 139.61H105.22C105.204 125.359 99.5361 111.697 89.4595 101.62C79.3828 91.5438 65.7205 85.8758 51.47 85.8599V76.4099C68.226 76.4284 84.2904 83.0929 96.1387 94.9412C107.987 106.79 114.651 122.854 114.67 139.61Z", fill: "#FF9908" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_557" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.860107)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.860107)" }))));
 }
 exports.default = RssIconColor;

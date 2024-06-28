@@ -51,6 +51,6 @@ function BmpIconGrayscale(props) {
             React.createElement("path", { d: "M102.39 94.9498C105.102 94.9498 107.3 92.7516 107.3 90.0399C107.3 87.3282 105.102 85.1299 102.39 85.1299C99.6784 85.1299 97.4802 87.3282 97.4802 90.0399C97.4802 92.7516 99.6784 94.9498 102.39 94.9498Z", fill: "#5B5B5B" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2011" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.860352)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.860352)" }))));
 }
 exports.default = BmpIconGrayscale;

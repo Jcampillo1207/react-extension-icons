@@ -51,6 +51,6 @@ function AviIconSingleColor(props) {
             React.createElement("path", { d: "M74.77 99.48H71.27C69.9666 99.48 68.91 100.537 68.91 101.84V115.53C68.91 116.833 69.9666 117.89 71.27 117.89H74.77C76.0734 117.89 77.13 116.833 77.13 115.53V101.84C77.13 100.537 76.0734 99.48 74.77 99.48Z", fill: props.color || "#4690FF" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_2677" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.290039)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.290039)" }))));
 }
 exports.default = AviIconSingleColor;

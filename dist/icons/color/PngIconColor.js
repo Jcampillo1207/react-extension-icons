@@ -66,6 +66,6 @@ function PngIconColor(props) {
             React.createElement("path", { d: "M124.05 135.56H110.3V149.31H124.05V135.56Z", fill: "#005FAD" })),
         React.createElement("defs", null,
             React.createElement("clipPath", { id: "clip0_2_564" },
-                React.createElement("rect", { width: 200, height: 240, fill: "white", transform: "translate(0.570007)" }))));
+                React.createElement("rect", { width: 20, height: 24, fill: "white", transform: "translate(0.570007)" }))));
 }
 exports.default = PngIconColor;
