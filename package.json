@@ -1,0 +1,41 @@
+{
+  "name": "react-extension-icons",
+  "version": "1.0.79",
+  "description": "A library for rendering file extension icons in React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && cpx 'src/icons/**/*' dist/icons",
+    "generate-icons": "node scripts/generateIcons.js",
+    "update": "npm version patch && npm run generate-icons && npm run build && npm publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "icons",
+    "file",
+    "extension",
+    "svg"
+  ],
+  "author": "José Campillo",
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/cli": "^8.1.0",
+    "fs-extra": "^11.2.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "cpx": "^1.2.1",
+    "typescript": "^5.5.2",
+    "lodash.camelcase": "^4.3.0",
+    "@svgr/core": "^5.5.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}

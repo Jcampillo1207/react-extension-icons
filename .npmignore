@@ -1,0 +1,6 @@
+scripts/
+svg/
+src/
+tsconfig.json
+tsconfig.build.json
+README.md
