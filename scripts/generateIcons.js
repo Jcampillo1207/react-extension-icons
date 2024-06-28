@@ -18,7 +18,7 @@ const typesFilePath = path.join(typesPath, "index.ts");
 const iconComponentPath = path.join(componentsPath, "Icon.tsx");
 const indexDtsPath = path.join(__dirname, "../dist/index.d.ts");
 
-const extensionMapping: { [key: string]: string } = {
+const extensionMapping = {
   ai: "ai",
   avi: "avi",
   bmp: "bmp",
