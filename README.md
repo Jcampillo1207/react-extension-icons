@@ -76,45 +76,45 @@ This package supports the following file extensions:
 
 | Variants | Icon |
 |----------|------|
-| ai | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/AI.svg) |
-| avi | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/AVI.svg) |
-| bmp | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/BMP.svg) |
-| crd | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/CRD.svg) |
-| csv | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/CSV.svg) |
-| dll | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/DLL.svg) |
-| doc, docx | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/DOC.svg) |
-| dwg, dxf | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/DWG.svg) |
-| eps | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/EPS.svg) |
-| exe | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/EXE.svg) |
-| flv | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/FLV.svg) |
-| gif | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/GIF.svg) |
-| html, htm | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/HTML.svg) |
-| iso | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/ISO.svg) |
-| java, jar | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/JAVA.svg) |
-| jpg, jpeg, jpe, jif, jfif, jfi | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/JPG.svg) |
-| mdb | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/MDB.svg) |
-| mid, midi | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/MID.svg) |
-| mov, qt | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/MOV.svg) |
-| mp3 | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/MP3.svg) |
-| mp4, m4a, m4p | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/MP4.svg) |
-| mpeg, mpg, mp2, mpe, mpv | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/MPEG.svg) |
-| pdf | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/PDF.svg) |
-| png | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/PNG.svg) |
-| ppt, pptx, pps, ppsx, potx, potm, ppsm, ppam, sldx, sldm | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/PPT.svg) |
-| ps | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/PS.svg) |
-| psd | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/PSD.svg) |
-| pub | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/PUB.svg) |
-| rar | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/RAR.svg) |
-| raw | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/RAW.svg) |
-| rss | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/RSS.svg) |
-| svg | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/SVG.svg) |
-| tiff, tif | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/TIFF.svg) |
-| txt | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/TXT.svg) |
-| wav | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/WAV.svg) |
-| wma, wmv | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/WMA.svg) |
-| xml | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/XML.svg) |
-| xsl | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/XSL.svg) |
-| zip | ![Icon](https://github.com/Jcampillo1207/react-extension-icons/raw/main/svg/color/ZIP.svg) |
+| ai | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/AI.svg) |
+| avi | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/AVI.svg) |
+| bmp | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/BMP.svg) |
+| crd | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/CRD.svg) |
+| csv | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/CSV.svg) |
+| dll | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/DLL.svg) |
+| doc, docx | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/DOC.svg) |
+| dwg, dxf | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/DWG.svg) |
+| eps | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/EPS.svg) |
+| exe | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/EXE.svg) |
+| flv | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/FLV.svg) |
+| gif | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/GIF.svg) |
+| html, htm | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/HTML.svg) |
+| iso | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/ISO.svg) |
+| java, jar | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/JAVA.svg) |
+| jpg, jpeg, jpe, jif, jfif, jfi | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/JPG.svg) |
+| mdb | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/MDB.svg) |
+| mid, midi | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/MID.svg) |
+| mov, qt | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/MOV.svg) |
+| mp3 | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/MP3.svg) |
+| mp4, m4a, m4p | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/MP4.svg) |
+| mpeg, mpg, mp2, mpe, mpv | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/MPEG.svg) |
+| pdf | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/PDF.svg) |
+| png | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/PNG.svg) |
+| ppt, pptx, pps, ppsx, potx, potm, ppsm, ppam, sldx, sldm | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/PPT.svg) |
+| ps | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/PS.svg) |
+| psd | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/PSD.svg) |
+| pub | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/PUB.svg) |
+| rar | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/RAR.svg) |
+| raw | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/RAW.svg) |
+| rss | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/RSS.svg) |
+| svg | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/SVG.svg) |
+| tiff, tif | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/TIFF.svg) |
+| txt | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/TXT.svg) |
+| wav | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/WAV.svg) |
+| wma, wmv | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/WMA.svg) |
+| xml | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/XML.svg) |
+| xsl | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/XSL.svg) |
+| zip | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/abacdeb2dd75be1acc28e96acc251b0ba366722f/svg/color/ZIP.svg) |
 
 ## Credits
 Icons are sourced from [this Figma file](https://www.figma.com/community/file/1113398399853613530/40-file-type-file-extension-icon) created by [Graphy](https://www.figma.com/@graphy918).
