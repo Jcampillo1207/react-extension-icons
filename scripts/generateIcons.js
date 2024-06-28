@@ -3,6 +3,8 @@ const path = require("path");
 const svgr = require("@svgr/core").default;
 const camelCase = require("lodash.camelcase");
 const fsExtra = require("fs-extra");
+const { optimize } = require("svgo");
+const svgoConfig = require("../svgo.config.js");
 
 const variants = ["color", "single_color", "grayscale"];
 const svgPath = path.join(__dirname, "../svg");
@@ -16,7 +18,6 @@ const typesFilePath = path.join(typesPath, "index.ts");
 const iconComponentPath = path.join(componentsPath, "Icon.tsx");
 const indexDtsPath = path.join(__dirname, "../dist/index.d.ts");
 
-// Mapping for extensions with multiple variations
 const extensionMapping = {
   ai: "ai",
   avi: "avi",
@@ -27,48 +28,25 @@ const extensionMapping = {
   doc: "doc",
   docx: "doc",
   dwg: "dwg",
-  dxf: "dwg",
   eps: "eps",
   exe: "exe",
   flv: "flv",
   gif: "gif",
   html: "html",
-  htm: "html",
   iso: "iso",
   java: "java",
-  jar: "java",
   jpg: "jpg",
   jpeg: "jpg",
-  jpe: "jpg",
-  jif: "jpg",
-  jfif: "jpg",
-  jfi: "jpg",
   mdb: "mdb",
   mid: "mid",
-  midi: "mid",
   mov: "mov",
-  qt: "mov",
   mp3: "mp3",
   mp4: "mp4",
-  m4a: "mp4",
-  m4p: "mp4",
   mpeg: "mpeg",
-  mpg: "mpeg",
-  mp2: "mpeg",
-  mpe: "mpeg",
-  mpv: "mpeg",
   pdf: "pdf",
   png: "png",
   ppt: "ppt",
   pptx: "ppt",
-  pps: "ppt",
-  ppsx: "ppt",
-  potx: "ppt",
-  potm: "ppt",
-  ppsm: "ppt",
-  ppam: "ppt",
-  sldx: "ppt",
-  sldm: "ppt",
   ps: "ps",
   psd: "psd",
   pub: "pub",
@@ -77,26 +55,16 @@ const extensionMapping = {
   rss: "rss",
   svg: "svg",
   tiff: "tiff",
-  tif: "tiff",
   txt: "txt",
   wav: "wav",
   wma: "wma",
-  wmv: "wma",
   xml: "xml",
   xsl: "xsl",
   zip: "zip",
   xlsx: "xls",
   xls: "xls",
-  xlt: "xls",
-  xlm: "xls",
-  xla: "xls",
-  xlc: "xls",
-  xlw: "xls",
-  xll: "xls",
-  xlb: "xls",
 };
 
-// Ensure all necessary directories exist
 const ensureDirectoriesExist = () => {
   const directories = [
     svgPath,
@@ -142,6 +110,12 @@ const generateReactComponent = async (filePath, componentName, variant) => {
   return tsCode;
 };
 
+const optimizeSvg = (filePath) => {
+  const svgContent = fs.readFileSync(filePath, "utf-8");
+  const result = optimize(svgContent, { path: filePath, ...svgoConfig });
+  fs.writeFileSync(filePath, result.data, "utf-8");
+};
+
 const generateIcons = async () => {
   const icons = {
     color: [],
@@ -156,9 +130,11 @@ const generateIcons = async () => {
       .filter((file) => file.endsWith(".svg"));
 
     for (const file of files) {
+      const filePath = path.join(variantPath, file);
+      optimizeSvg(filePath);
       const componentName = generateComponentName(file, variant);
       const componentCode = await generateReactComponent(
-        path.join(variantPath, file),
+        filePath,
         componentName,
         variant
       );
@@ -204,11 +180,6 @@ const generateGetIconComponentFile = (icons) => {
     }
   }
 
-  content += `const extensionMapping: { [key: string]: string } = ${JSON.stringify(
-    extensionMapping,
-    null,
-    2
-  )};\n\n`;
   content += `const icons: { [key: string]: { [key in Variant]?: React.ComponentType<React.SVGProps<SVGSVGElement> & { color?: string }> } } = {\n`;
 
   for (const iconName of iconNames) {
