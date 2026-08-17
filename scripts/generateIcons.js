@@ -89,8 +89,9 @@ const extensionMapping = {
   wav: "wav",
   wma: "wma",
   wmv: "wma",
+  xls: "xls",
+  xlsx: "xls",
   xml: "xml",
-  xsl: "xsl",
   zip: "zip",
 };
 

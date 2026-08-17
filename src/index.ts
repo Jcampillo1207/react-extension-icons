@@ -40,8 +40,8 @@ export { default as TiffIconColor } from './icons/color/TiffIconColor.js';
 export { default as TxtIconColor } from './icons/color/TxtIconColor.js';
 export { default as WavIconColor } from './icons/color/WavIconColor.js';
 export { default as WmaIconColor } from './icons/color/WmaIconColor.js';
+export { default as XlsIconColor } from './icons/color/XlsIconColor.js';
 export { default as XmlIconColor } from './icons/color/XmlIconColor.js';
-export { default as XslIconColor } from './icons/color/XslIconColor.js';
 export { default as ZipIconColor } from './icons/color/ZipIconColor.js';
 export { default as AiIconSingleColor } from './icons/single_color/AiIconSingleColor.js';
 export { default as AviIconSingleColor } from './icons/single_color/AviIconSingleColor.js';
@@ -80,8 +80,8 @@ export { default as TiffIconSingleColor } from './icons/single_color/TiffIconSin
 export { default as TxtIconSingleColor } from './icons/single_color/TxtIconSingleColor.js';
 export { default as WavIconSingleColor } from './icons/single_color/WavIconSingleColor.js';
 export { default as WmaIconSingleColor } from './icons/single_color/WmaIconSingleColor.js';
+export { default as XlsIconSingleColor } from './icons/single_color/XlsIconSingleColor.js';
 export { default as XmlIconSingleColor } from './icons/single_color/XmlIconSingleColor.js';
-export { default as XslIconSingleColor } from './icons/single_color/XslIconSingleColor.js';
 export { default as ZipIconSingleColor } from './icons/single_color/ZipIconSingleColor.js';
 export { default as AiIconGrayscale } from './icons/grayscale/AiIconGrayscale.js';
 export { default as AviIconGrayscale } from './icons/grayscale/AviIconGrayscale.js';
@@ -120,6 +120,6 @@ export { default as TiffIconGrayscale } from './icons/grayscale/TiffIconGrayscal
 export { default as TxtIconGrayscale } from './icons/grayscale/TxtIconGrayscale.js';
 export { default as WavIconGrayscale } from './icons/grayscale/WavIconGrayscale.js';
 export { default as WmaIconGrayscale } from './icons/grayscale/WmaIconGrayscale.js';
+export { default as XlsIconGrayscale } from './icons/grayscale/XlsIconGrayscale.js';
 export { default as XmlIconGrayscale } from './icons/grayscale/XmlIconGrayscale.js';
-export { default as XslIconGrayscale } from './icons/grayscale/XslIconGrayscale.js';
 export { default as ZipIconGrayscale } from './icons/grayscale/ZipIconGrayscale.js';

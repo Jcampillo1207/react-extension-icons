@@ -38,8 +38,8 @@ import TiffIconColor from '../icons/color/TiffIconColor.js';
 import TxtIconColor from '../icons/color/TxtIconColor.js';
 import WavIconColor from '../icons/color/WavIconColor.js';
 import WmaIconColor from '../icons/color/WmaIconColor.js';
+import XlsIconColor from '../icons/color/XlsIconColor.js';
 import XmlIconColor from '../icons/color/XmlIconColor.js';
-import XslIconColor from '../icons/color/XslIconColor.js';
 import ZipIconColor from '../icons/color/ZipIconColor.js';
 import AiIconSingleColor from '../icons/single_color/AiIconSingleColor.js';
 import AviIconSingleColor from '../icons/single_color/AviIconSingleColor.js';
@@ -78,8 +78,8 @@ import TiffIconSingleColor from '../icons/single_color/TiffIconSingleColor.js';
 import TxtIconSingleColor from '../icons/single_color/TxtIconSingleColor.js';
 import WavIconSingleColor from '../icons/single_color/WavIconSingleColor.js';
 import WmaIconSingleColor from '../icons/single_color/WmaIconSingleColor.js';
+import XlsIconSingleColor from '../icons/single_color/XlsIconSingleColor.js';
 import XmlIconSingleColor from '../icons/single_color/XmlIconSingleColor.js';
-import XslIconSingleColor from '../icons/single_color/XslIconSingleColor.js';
 import ZipIconSingleColor from '../icons/single_color/ZipIconSingleColor.js';
 import AiIconGrayscale from '../icons/grayscale/AiIconGrayscale.js';
 import AviIconGrayscale from '../icons/grayscale/AviIconGrayscale.js';
@@ -118,8 +118,8 @@ import TiffIconGrayscale from '../icons/grayscale/TiffIconGrayscale.js';
 import TxtIconGrayscale from '../icons/grayscale/TxtIconGrayscale.js';
 import WavIconGrayscale from '../icons/grayscale/WavIconGrayscale.js';
 import WmaIconGrayscale from '../icons/grayscale/WmaIconGrayscale.js';
+import XlsIconGrayscale from '../icons/grayscale/XlsIconGrayscale.js';
 import XmlIconGrayscale from '../icons/grayscale/XmlIconGrayscale.js';
-import XslIconGrayscale from '../icons/grayscale/XslIconGrayscale.js';
 import ZipIconGrayscale from '../icons/grayscale/ZipIconGrayscale.js';
 
 export const extensionMapping: Record<string, string> = {
@@ -187,8 +187,9 @@ export const extensionMapping: Record<string, string> = {
   'wav': 'wav',
   'wma': 'wma',
   'wmv': 'wma',
+  'xls': 'xls',
+  'xlsx': 'xls',
   'xml': 'xml',
-  'xsl': 'xsl',
   'zip': 'zip',
 };
 
@@ -378,15 +379,15 @@ const icons: Record<string, Partial<Record<Variant, IconComponent>>> = {
     single_color: WmaIconSingleColor,
     grayscale: WmaIconGrayscale,
   },
+  'xls': {
+    color: XlsIconColor,
+    single_color: XlsIconSingleColor,
+    grayscale: XlsIconGrayscale,
+  },
   'xml': {
     color: XmlIconColor,
     single_color: XmlIconSingleColor,
     grayscale: XmlIconGrayscale,
-  },
-  'xsl': {
-    color: XslIconColor,
-    single_color: XslIconSingleColor,
-    grayscale: XslIconGrayscale,
   },
   'zip': {
     color: ZipIconColor,
