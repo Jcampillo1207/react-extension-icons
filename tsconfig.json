@@ -1,18 +1,20 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "commonjs",
-    "declaration": true,
-    "outDir": "./dist",
+    "target": "ES2018",
+    "lib": ["DOM", "DOM.Iterable", "ES2018"],
+    "jsx": "react-jsx",
+    "module": "ES2020",
+    "moduleResolution": "node",
     "strict": true,
-    "jsx": "react", // Esto es importante para que TypeScript maneje JSX
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "./",
-    "paths": {
-      "react-extension-icons": ["src"]
-    }
+    "declaration": false,
+    "sourceMap": false
   },
   "include": ["src"]
 }

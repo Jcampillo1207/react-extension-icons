@@ -1,42 +1,68 @@
 {
   "name": "react-extension-icons",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A library for rendering file extension icons in React",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc -p tsconfig.build.json && cpx 'src/icons/**/*' dist/icons",
-    "generate-icons": "node scripts/generateIcons.js",
-    "update": "git add . && git commit -m 'Update' && git push origin main && npm version patch && npm run generate-icons && npm run build && npm publish"
+  "license": "ISC",
+  "author": "José Campillo",
+  "homepage": "https://github.com/Jcampillo1207/react-extension-icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jcampillo1207/react-extension-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jcampillo1207/react-extension-icons/issues"
+  },
+  "sideEffects": false,
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/types/icons/*.d.ts",
+      "import": "./dist/esm/icons/*.js",
+      "require": "./dist/cjs/icons/*.js"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
   ],
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "generate-icons": "node scripts/generateIcons.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "npm run clean && tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && tsc -p tsconfig.types.json && node scripts/postbuild.js",
+    "test": "node --test",
+    "verify": "npm run generate-icons && npm run typecheck && npm run build && npm test",
+    "prepublishOnly": "npm run verify",
+    "release": "npm run verify && npm version patch -m \"release: v%s\" && git push --follow-tags origin HEAD && npm publish"
+  },
   "keywords": [
     "react",
     "icons",
     "file",
     "extension",
-    "svg"
+    "svg",
+    "file-icons",
+    "file-type"
   ],
-  "author": "José Campillo",
-  "license": "ISC",
-  "dependencies": {
-    "@svgr/cli": "^8.1.0",
-    "fs-extra": "^11.2.0",
-    "react": "^18.0.0"
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
-    "@svgr/core": "^5.5.0",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
     "@types/node": "^20.14.9",
     "@types/react": "^18.3.3",
-    "cpx": "^1.2.1",
     "lodash.camelcase": "^4.3.0",
-    "svgo": "^3.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "svgo": "^4.0.2",
     "typescript": "^5.5.2"
-  },
-  "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
   }
 }

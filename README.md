@@ -1,24 +1,24 @@
-
 # React Extension Icons
 
-## Description
-A library for rendering file extension icons in React. This package provides SVG icons for various file extensions with three variants: color, single_color, and grayscale.
+File extension icons for React, in three variants: `color`, `single_color` and `grayscale`.
+Ships ESM and CommonJS builds, TypeScript types, and works in React 18 and 19.
 
 ## Installation
+
 ```bash
 npm install react-extension-icons
 ```
 
+`react` is a peer dependency (`^18 || ^19`). The package has no runtime dependencies.
+
 ## Usage
 
-### Basic Usage
-You can use the `Icon` component to render icons based on file extensions.
+### Lookup by extension
 
 ```tsx
-import React from 'react';
 import { Icon } from 'react-extension-icons';
 
-const App: React.FC = () => {
+export default function App() {
   return (
     <div>
       <Icon extension="pdf" variant="color" size={48} className="custom-class" />
@@ -26,19 +26,18 @@ const App: React.FC = () => {
       <Icon extension="jpg" variant="grayscale" size={48} />
     </div>
   );
-};
-
-export default App;
+}
 ```
 
-### Individual Icons
-You can also use individual icon components if you prefer to import them directly.
+Extensions are case insensitive and a leading dot is optional, so `pdf`, `PDF` and `.pdf`
+all resolve to the same icon. An unrecognised extension renders nothing.
+
+### Individual icons
 
 ```tsx
-import React from 'react';
 import { PdfIconColor, DocxIconSingleColor, JpgIconGrayscale } from 'react-extension-icons';
 
-const App: React.FC = () => {
+export default function App() {
   return (
     <div>
       <PdfIconColor width={48} height={48} className="custom-class" />
@@ -46,35 +45,68 @@ const App: React.FC = () => {
       <JpgIconGrayscale width={48} height={48} />
     </div>
   );
-};
+}
+```
 
-export default App;
+Each icon can also be imported on its own, which skips the barrel entirely:
+
+```tsx
+import PdfIconColor from 'react-extension-icons/icons/color/PdfIconColor';
+```
+
+### Bundle size
+
+`<Icon>` looks icons up by string at runtime, so it has to reference the whole set —
+importing it pulls in roughly 200 KB gzipped. Named and subpath imports are tree-shaken:
+a single icon costs about 2 KB gzipped. Reach for `<Icon>` when the extension is only
+known at runtime, and for direct imports when it is not.
+
+### Accessibility
+
+Icons are decorative by default (`aria-hidden="true"`). Pass `title` (with a `titleId`)
+or an `aria-label` to expose one to assistive technology:
+
+```tsx
+<Icon extension="pdf" title="PDF document" titleId="pdf-title" />
+<Icon extension="pdf" aria-label="PDF document" />
 ```
 
 ## Props
 
-### Icon
-| Prop       | Type                       | Default   | Description                                    |
-|------------|----------------------------|-----------|------------------------------------------------|
-| extension  | `string`                   |           | The file extension to render the icon for.     |
-| variant    | `'color' \| 'single_color' \| 'grayscale'` | `'color'` | The variant of the icon to render.             |
-| size       | `number`                   | `24`      | The size of the icon.                          |
-| className  | `string`                   | `''`      | Additional CSS classes to apply to the icon.   |
-| color      | `string`                   | `''`      | The color of the icon (applies only to `single_color` variant).   |
+### `Icon`
 
-### Individual Icon Components
-All individual icon components accept the following props:
-| Prop       | Type       | Default   | Description                                    |
-|------------|------------|-----------|------------------------------------------------|
-| width      | `number`   | `24`      | The width of the icon.                         |
-| height     | `number`   | `24`      | The height of the icon.                        |
-| className  | `string`   | `''`      | Additional CSS classes to apply to the icon.   |
-| color      | `string`   | `''`      | The color of the icon (applies only to `single_color` variant).   |
+| Prop        | Type                                          | Default   | Description                                             |
+|-------------|-----------------------------------------------|-----------|---------------------------------------------------------|
+| `extension` | `string`                                      | —         | File extension, with or without a leading dot.          |
+| `variant`   | `'color' \| 'single_color' \| 'grayscale'`    | `'color'` | Which artwork to render.                                |
+| `size`      | `number \| string`                            | `24`      | Width and height. Overridden by explicit `width`/`height`. |
+| `color`     | `string`                                      | —         | Accent color. Applied to the `single_color` variant only. |
+| `title`     | `string`                                      | —         | Accessible name. Pair it with `titleId`.                |
+| `titleId`   | `string`                                      | —         | id for the `<title>`, wired up via `aria-labelledby`.   |
+| `ref`       | `Ref<SVGSVGElement>`                          | —         | Forwarded to the underlying `<svg>`.                    |
+
+Any other `svg` prop (`className`, `style`, `onClick`, `data-*`, …) is forwarded as well.
+
+### Individual icon components
+
+The same props minus `extension`, `variant` and `size` — use `width` and `height` directly.
+`color` only has an effect on the `SingleColor` components.
+
+### `getIconComponent`
+
+```tsx
+import { getIconComponent } from 'react-extension-icons';
+
+const PdfIcon = getIconComponent('pdf', 'color'); // null when unsupported
+```
+
+`extensionMapping` is exported too, if you need to know which extensions resolve where.
 
 ## Supported Extensions
-This package supports the following file extensions:
 
-| Variants | Icon |
+40 icons, each available in all three variants.
+
+| Extensions | Icon |
 |----------|------|
 | ai | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/AI.svg) |
 | avi | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/AVI.svg) |
@@ -82,7 +114,8 @@ This package supports the following file extensions:
 | crd | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/CRD.svg) |
 | csv | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/CSV.svg) |
 | dll | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/DLL.svg) |
-| doc, docx | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/DOC.svg) |
+| doc | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/DOC.svg) |
+| docx | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/DOCX.svg) |
 | dwg, dxf | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/DWG.svg) |
 | eps | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/EPS.svg) |
 | exe | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/EXE.svg) |
@@ -116,8 +149,41 @@ This package supports the following file extensions:
 | xsl | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/XSL.svg) |
 | zip | ![Icon](https://raw.githubusercontent.com/Jcampillo1207/react-extension-icons/12d01a415b63cf18e176d7b0596884b02e303775/svg/color/ZIP.svg) |
 
+There is no spreadsheet artwork yet, so `xls` and `xlsx` are unsupported and return `null`.
+
+The table above is enforced by a test: an extension listed here that does not resolve,
+or a mapping entry that is not listed here, fails the build.
+
+## Contributing
+
+Everything under `src/` is generated from the SVGs in `svg/`. Edit the artwork, not the
+components:
+
+```bash
+npm run generate-icons   # svg/ -> src/
+npm run typecheck
+npm run build            # src/ -> dist/{cjs,esm,types}
+npm test
+```
+
+`npm run verify` runs all four. Adding an icon means dropping `NAME.svg` into each of
+`svg/color/`, `svg/single_color/` and `svg/grayscale/`, then adding the extension to
+`extensionMapping` in `scripts/generateIcons.js` and to the table above.
+
+The `single_color` artwork must use `#5659E9` as its accent — that is the value swapped
+for the `color` prop, and generation fails if an icon does not contain it.
+
+### Releasing
+
+```bash
+npm run release   # verify, version patch, push with tags, publish
+```
+
 ## Credits
-Icons are sourced from [this Figma file](https://www.figma.com/community/file/1113398399853613530/40-file-type-file-extension-icon) created by [Graphy](https://www.figma.com/@graphy918).
+
+Icons are sourced from [this Figma file](https://www.figma.com/community/file/1113398399853613530/40-file-type-file-extension-icon)
+created by [Graphy](https://www.figma.com/@graphy918).
 
 ## License
-This project is licensed under the ISC License.
+
+ISC — see [LICENSE](./LICENSE).
